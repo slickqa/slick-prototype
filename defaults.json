@@ -1,0 +1,10 @@
+{
+    "url": {
+        "base": "/"
+    },
+    "database": {
+        "hostname": "localhost",
+        "name": "slickij"
+    },
+    "listen": 3000
+}

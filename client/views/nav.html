@@ -1,0 +1,6 @@
+<a href="{{slickHomeUrl}}">Home</a><br />
+<span ng-repeat="group in groups()">{{group.name}}<br />
+    <ul>
+        <li ng-repeat="link in group.links"><a href="{{link.link}}">{{link.name}}</a></li>
+    </ul>
+</span>
