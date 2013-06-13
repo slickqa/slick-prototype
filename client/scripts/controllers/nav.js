@@ -12,6 +12,6 @@ angular.module('slickPrototypeApp')
         $scope.slickHomeUrl = document.baseURI;
 
         $scope.addProject = function() {
-            nav.groups()[0].append({name: 'A new project', link: 'projects/A+new+project'});
+            nav.groups()[0].links.push({name: 'A new project', link: 'projects/A+new+project'});
         }
     }]);
